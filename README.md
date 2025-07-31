@@ -1,8 +1,10 @@
 # Turbo Juice Demo
 
-A small Turbo OS game showcasing a variety of low‑effort "juice" effects you can cycle through in real time.
+![A demo reel of the effects](reel.gif)
 
-Live demo: https://magical-cupcake-e8efbd.netlify.app/
+A small Turbo game showcasing a variety of low‑effort "juice" effects you can cycle through.
+
+[**Live demo &rarr;**](https://magical-cupcake-e8efbd.netlify.app/)
 
 ## Features
 
@@ -17,18 +19,6 @@ Live demo: https://magical-cupcake-e8efbd.netlify.app/
 - **Color+Alpha Oscillation**: Apply oscillating tint and transparency.
 - **Silhouette**: Draw sprite as a silhouette with border radius.
 - **Bounce**: Vertical bounce animation of a sprite.
-
-## Controls
-
-| Input       | Action                            |
-| ----------- | --------------------------------- |
-| **Right**   | Cycle to next effect              |
-| **Left**    | Cycle to previous effect          |
-| **Space**   | Tween dialog box (effect #0)      |
-| **Enter**   | Toggle screen shake (effect #1)   |
-| **Pointer** | Pan camera to pointer (effect #2) |
-
-> Note: On effect #0 (Modal Tween), press **Start** to trigger the box animation.
 
 ## Setup & Run
 
@@ -53,10 +43,7 @@ Live demo: https://magical-cupcake-e8efbd.netlify.app/
 
 4. **Play**
 
-   - Use a gamepad or keyboard:
-
-     - **Left/Right** to cycle effects
-     - **Space**, **Enter**, and **Pointer** for context‑specific demos
+   Use **Left/Right** to cycle effects. Be sure to read the prompt at the bottom of the screen for each effect.
 
 ## Code Overview
 
@@ -73,4 +60,4 @@ Each effect is entirely self‑contained in its `match` arm—feel free to isola
 
 ---
 
-_Have fun juicing your Turbo OS games!_
+_Have fun juicing your Turbo games!_

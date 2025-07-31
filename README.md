@@ -58,6 +58,8 @@ Each effect is entirely self‑contained in its `match` arm—feel free to isola
 
 **Don't forget to play around with the `shaders/juice.wgsl` file.** There are plenty of effects to uncomment within the `fs_main` function.
 
+![A preview of shader effects](shaders.gif)
+
 ---
 
 _Have fun juicing your Turbo games!_

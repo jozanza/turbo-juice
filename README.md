@@ -38,7 +38,7 @@ A small Turbo game showcasing a variety of low‑effort "juice" effects you can 
 3. **Build & run**
 
    ```sh
-   turbo run
+   turbo run -w
    ```
 
 4. **Play**
